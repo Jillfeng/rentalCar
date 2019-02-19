@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="searchStyle.css" type="text/css">
+</head>
+<body>
+    <div class="search">
+        <div class="search__container"></div>
+            <h2 class="search__heading">Where are you going?</h2>
+            <form autocomplete="off">
+                <label for="location">Pick-up Location</label><br>
+                <div class="dropDown">
+                    <input id="location" name="location" onchange="callEndpoint()" type="location" size = "40" placeholder="city, airport, station, region, district..."> 
+                </div> 
+            </form>
+        </div>
+    </div>
+    <script src="CallEndpoint.js"></script>
+</body>
+
+
+
